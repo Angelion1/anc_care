@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anc.codegurus.pregacare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".NotificationReciever"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".NotificationClick" />
+        <activity android:name=".NotificationClick1" />
+        <activity android:name=".NotificationClick2" />
+        <activity android:name=".NotificationClick3" />
+        <activity android:name=".NotificationClick4" />
+        <activity android:name=".Utilities.NotificationClick1" />
+        <activity android:name=".ActivityAnc_info" />
+        <activity android:name=".Activityinfoanc" />
+        <activity android:name=".ActivityVisit1" />
+        <activity android:name=".ActivityVisit2" />
+        <activity android:name=".ActivityVisit3" />
+        <activity android:name=".ActivityVisit4" />
+        <activity android:name=".activityNutrition" />
+        <activity android:name=".ActivityMonth1_3" />
+        <activity android:name=".ActivityMonth4" />
+        <activity android:name=".ActivityMonth5" />
+        <activity android:name=".ActivityMonth6" />
+        <activity android:name=".ActivityMonth7" />
+        <activity android:name=".ActivityMonth8" />
+        <activity android:name=".ActivityMonth9" />
+        <activity android:name=".Utilities.ActivityRisk" />
+        <activity android:name=".ActivityRisk" />
+        <activity android:name=".ActivityPMSMA"></activity>
+    </application>
+
+</manifest>

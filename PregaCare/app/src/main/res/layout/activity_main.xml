@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.anc.codegurus.pregacare.MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="start"
+        android:id="@+id/mainUserImageView"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        >
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayoutWeekDays"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainweeksTextView"
+            android:gravity="left"
+            android:text="Weeks"
+            android:textSize="30dp"
+            android:textColor="#bb0000"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainProgressBar"
+        android:max="280"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginTop="30dp"
+
+
+        />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutBottomUtilities"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            >
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:background="@drawable/round_button"
+                android:text="ANC "
+                android:id="@+id/ancInfoButton"
+
+                />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:background="@drawable/round_button"
+                android:text="Guidelines"
+                android:id="@+id/nutritionButton"
+                android:layout_marginLeft="6dp"
+                />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:background="@drawable/round_button"
+                android:text="Risks"
+                android:id="@+id/riskFactorsButton"
+                android:layout_marginLeft="6dp"
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/round_button"
+                android:text="PMSMA"
+                android:id="@+id/PMSMAButton"
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:background="@drawable/round_button"
+                android:text="Size"
+                android:id="@+id/sizeButton"
+                android:layout_marginLeft="6dp"
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:background="@drawable/round_button"
+                android:text="info"
+                android:id="@+id/infoButton"
+                android:layout_marginLeft="6dp"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
